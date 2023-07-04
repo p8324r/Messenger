@@ -1,0 +1,38 @@
+.mainpage{
+    display: flex;
+    flex-direction: column;
+    flex-grow:1 ;
+}
+
+.mainpage .mainpage-cont{
+    flex-grow: 1;
+    background-color: rgb(59, 255, 180);
+    border-radius: 10px;
+    display: flex;
+    margin-top: 15px;
+    height: 86vh;
+}
+
+.mainpage .mainpage-cont .left{
+    flex-grow: 1;
+    font-size: 40px ;
+    margin: auto;
+    margin-left: 25px;
+}
+
+.mainpage .mainpage-cont .left p{
+    animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.mainpage .mainpage-cont .right{
+    flex-grow: 1;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+}
+

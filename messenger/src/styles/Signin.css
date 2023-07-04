@@ -1,0 +1,133 @@
+.signinpage {
+    display: flex;
+    background-color:  rgb(57, 136, 168);
+    height: 97vh;
+    text-align: center;
+}
+
+.signinpage .Empty{
+    flex-grow: 4;
+}
+
+.signinpage div{
+    flex-grow: 1;
+}
+
+.signinpage .selwrap{
+    display: flex;
+}
+
+.signinpage .selwrap div{
+    margin-top: 10px;
+    border: 2px solid #eee;
+    background-color: #5a5a5a;
+    border-radius: 5px;
+    width: 100px;
+    height: 7vh;
+    color: #fff;
+    &:hover{
+        box-shadow: 0px 0px 3px #545454;
+    }
+} 
+
+
+.signinpage .compwrap{
+    display: flex;
+    flex-direction: column;
+}
+
+.signinpage .inputwrap{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.signinpage .compwrap .topempty{
+    min-height: 100px;
+    font-size: 50px;
+    font-weight: 600;
+    text-align:center;
+    padding-top: 25px;
+    color: whitesmoke;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin: 5px;
+    box-shadow: 0px 0px 5px #000000;
+}
+
+.signinpage .compwrap .selwrap{
+    min-height: 50px;
+}
+
+.signinpage .compwrap .selwrap div{
+    padding: 10px 0;
+    line-height: 50px;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+.signinpage .compwrap .inputwrap{
+    min-height: max-content;
+    padding: 0 10px;
+    box-shadow: 0px 0px 5px #545454;
+    font-size: 20px;
+    background-color: #b6e1ff;
+}
+
+.signinpage .compwrap .inputwrap label{
+    margin-top: 15px;
+}
+
+.signinpage .compwrap .inputwrap input{
+    width: 250px;
+    align-self: center;
+}
+
+.signinpage .compwrap .inputwrap button{
+    cursor: pointer;
+    margin: 15px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.signinpage .compwrap .orwrap{
+    display: flex;
+}
+
+.signinpage .compwrap .orwrap div{
+    flex-grow: 2;
+    border: 1px solid black;
+    height: 0;
+    margin: auto;
+}
+
+.signinpage .compwrap .orwrap p{
+    flex-grow: 1;
+    font-size: 20px;
+}
+
+.signinpage .compwrap .bottomempty{
+    min-height: 150px;
+}
+
+.signinpage .compwrap .signinusingGoogle button{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0px 0px 4px #545454;
+    cursor: pointer;
+    font-size: 20px;
+    &:hover{
+        box-shadow: 0px 0px 5px rgb(106, 220, 255);
+    }
+}
+
+.forgot{
+    text-decoration: none;
+    color: black;
+    
+    font-size: 20px;
+    &:hover{
+        text-decoration: underline;
+    }
+}

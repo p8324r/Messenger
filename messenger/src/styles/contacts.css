@@ -1,0 +1,74 @@
+.contact{
+    margin-top: 10px;
+    min-width: 21vw;
+    max-width: 21vw;
+    background-color: rgb(43, 174, 226);
+    height: 90vh;
+    display:flex;
+    flex-direction: column;
+    overflow: scroll;
+    box-shadow: 0px 0px 10px rgb(85, 85, 85);
+    border-radius: 10px;
+}
+
+.contact .searchbar{
+    display: flex;
+}
+
+.contact .searchbar input{
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.contact .searchbar button{
+    background-color:  rgba(0, 175, 181);
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+    border:none;
+    width: 100px;
+    cursor: pointer;
+    border: 2px solid white;
+    &:hover{
+        font-weight:600;
+    }
+}
+
+
+.contact .upperempty{
+    height:3px;
+}
+
+.contact .contactlist {
+    flex-grow: 1;
+}
+
+.contact .contactlist .contactitem{
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    background-color: rgb(0, 96, 174);
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin:5px;
+    &:hover{
+        border: 2px solid lightgray;
+        box-shadow: 0px 0px 10px rgb(74, 237, 255);
+    }
+}
+
+.sectiontitle{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left:5px;
+    color: white;
+    background-color: #003887;
+    font-size: 20px;
+}

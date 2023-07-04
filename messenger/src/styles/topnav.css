@@ -1,0 +1,64 @@
+.topnav{
+    position: sticky;
+    height: 10vh;
+    display: flex;
+    background-color: rgb(41, 96, 118);
+    box-shadow: 0px 5px 3px #616161;
+    border-radius: 10px;
+}
+
+.topnav .left{
+    flex-grow: 1;
+    margin: auto;
+    padding-left: 2%;
+}
+
+.topnav .left .pgtitle{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+.topnav .right{
+    flex-grow: 1;
+    display: flex;
+    margin: auto;
+}
+
+.topnav .right .empty{
+    flex-grow: 1;
+}
+
+.topnav .right .btns button{
+    color: azure;
+    border: none;
+    background-color: rgb(41, 96, 118);
+    cursor: pointer;
+    font-size: 20px;
+    border-bottom: 2px solid rgb(41, 96, 118);
+    border-top: 2px solid rgb(41, 96, 118) ;
+    box-shadow: none;
+    border-radius: none;
+    width: 100px;
+    &:hover{
+        border-bottom: 2px solid rgba(255,255,255,1);
+        border-top: 2px solid rgba(255,255,255,1);
+        box-shadow: 0px 0px 5px rgba(255,255,255,0.7);
+        border-radius: 15px;
+    }
+}
+
+.topnav .right .space{
+    width: 1vw
+}
+
+.topnav .right .login{
+    margin-right: 1vw;
+}
+
+.topnav .right .username{
+    color: white;
+    box-shadow: 0px 0px 5px rgb(255, 255, 255,0.8);
+    font-size: 30px;
+    margin-right: 30px;
+    padding: 10px ;
+    border-radius: 10px;
+}
