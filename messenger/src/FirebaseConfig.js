@@ -7,16 +7,11 @@ import { getFirestore } from 'firebase/firestore';
  
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAJNLoPWLAvXL0jv3KVILXoC1Ka0_v4w68",
-  authDomain: "messenger-332fe.firebaseapp.com",
-  projectId: "messenger-332fe",
-  storageBucket: "messenger-332fe.appspot.com",
-  messagingSenderId: "853015593281",
-  appId: "1:853015593281:web:158810c59dd58f10fbe1c0"
+  // Your own firebase configuration object
 };
 
 // Initialize Firebase
-export const API_KEY = "AIzaSyAJNLoPWLAvXL0jv3KVILXoC1Ka0_v4w68";
+export const API_KEY = "<YOUR-API-KEY>";
 export const app = initializeApp(firebaseConfig);
 
 export const auth = initializeAuth(app,{
